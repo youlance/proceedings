@@ -1,0 +1,25 @@
+Project selected: Instagram
+
+Core features:
+* Create Account
+* Login
+* Logout
+* Search Users -> By ID
+* Follow Users
+* UnFollow Users
+* Upload Photo
+* Profile Setting
+* Generate Private Feed -> posts of the users a user follows. Sort by data.
+* Feed Pagination
+--------------------------------------------------------------------------------------
+UI:
+* First Page
+* Create Account
+* Login
+* Search
+* Feed
+* User Page -> following, follower count, posts, name, id, profile pic
+* Profile Setting
+-------------------------------------------------------
+What services should we have?
+* Auth
