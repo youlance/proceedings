@@ -1,0 +1,35 @@
+youlance services:
+
+User creates an account and registers.
+User logs in & gets an access token.
+User uploads a post.
+Users can follow/unfollow other users.
+Users can search other users by ID.
+Users can see their followings posts in their feed.
+
+-----------------------------------------------------------
+Users Service:
+* Register a  new user.
+* Validate a user registration & password.
+* Follow.
+* UnFollow.
+* Serve a users data by ID.
+* Serve a users followings.
+
+------
+Auth Service:
+* Create a new access token and return.
+* Validate an access token.
+
+------
+Posts Service:
+* Upload a post.
+
+------
+Search Service:
+* Get an ID and return the user.
+
+------
+Feed Service:
+* Paginate and serve posts.
+* Sort posts by Date.
