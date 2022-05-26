@@ -6,10 +6,14 @@ User uploads a post.
 Users can follow/unfollow other users.
 Users can search other users by ID.
 Users can see their followings posts in their feed.
+Users can see their profile settings.
+Users can update their profile settings.
+Users can initially set their profile settings.
 
 -----------------------------------------------------------
+
 Users Service:
-* Register a  new user.
+* Register a new user.
 * Validate a user registration & password.
 * Follow.
 * UnFollow.
@@ -24,6 +28,8 @@ Auth Service:
 ------
 Posts Service:
 * Upload a post.
+* Serve a post by ID.
+* Serve posts by a user ID.
 
 ------
 Search Service:
@@ -33,3 +39,8 @@ Search Service:
 Feed Service:
 * Paginate and serve posts.
 * Sort posts by Date.
+
+------
+* Serve a profile setting by user ID.
+* Set a profile setting initially for a user.
+* Update a users profile setting.
